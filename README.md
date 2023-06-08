@@ -546,6 +546,11 @@ whereas a `final` value must be known at ***runtime***, `final birth  = getBirth
 ```dart
 const int a = 42;
 ```
+Consclusion
+A simple example for both:
+
+Use final: If you don’t know what it’s value will be at compile-time. For example, when you can need to get data from an API, this happens when running your code.
+Use const: If you are sure that a value isn’t going to be changed when running your code. For example, when you declare a sentence that always remains the same.
 
 **error**
 ```dart
